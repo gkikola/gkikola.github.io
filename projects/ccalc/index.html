@@ -203,21 +203,26 @@ false</code></pre>
   </p>
   <p>
     All C operators are supported except for those with side-effects (namely
-    assignment, increment, and decrement). Both integer and floating-point
-    values may be used in the input expression: <b>ccalc</b> will perform
-    conversions where necessary.
+    assignment, increment, and decrement). In addition, an exponentiation
+    operator <tt>**</tt> and an integer division operator <tt>//</tt> are
+    provided. Both integer and floating-point values may be used in the
+    input expression: <b>ccalc</b> will perform conversions where necessary.
   </p>
   <p>
-    Note that <b>ccalc</b> treats the <tt>^</tt> operator as C does, for 
-    bitwise-exclusive-or and not for exponentiation. This behavior can be 
-    changed with the --caret-exp option. Also, unlike in C, the division 
-    operator <tt>/</tt> may produce a floating-point result even when 
-    both operands are integers. To force integer division, the <tt>//</tt> 
-    operator may be used.
+    Note that <b>ccalc</b> treats the <tt>^</tt> operator as C does, as the 
+    bitwise XOR operator and not as exponentiation. This behavior can be 
+    changed with the --caret-exp option. Otherwise you may use the
+    <tt>pow</tt> function or the <tt>**</tt> operator.
   </p>
   <p>
-    A few mathematical constants like PI and E are defined, and most of 
-    the math functions in the C standard library are available.
+    Note also that, unlike in C, the division operator <tt>/</tt> may produce 
+    a floating-point result even when both operands are integers. To force
+    integer division, the <tt>//</tt> operator may be used.
+  </p>
+  <p>
+    A few mathematical constants like <tt>PI</tt> and <tt>E</tt> are
+    defined, and most of the math functions in the C standard library are
+    available.
   </p>
   <p>
     Integer values may also be specified in binary, octal, or hexadecimal.
