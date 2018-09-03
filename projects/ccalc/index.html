@@ -38,10 +38,10 @@ $ ccalc "8146 % 7"
     Built-in functions and constants:
 <pre><code>$ ccalc "1.4 * E"
 3.805595
-    
+
 $ ccalc "max(12, 15)"
 15
-    
+
 $ ccalc "sin(PI / 3)"
 0.866025
 
@@ -63,7 +63,7 @@ $ ccalc --radix=60 "82709"
     Boolean tests:
 <pre><code>$ ccalc --bool "10 &gt; 5"
 true
-    
+
 $ ccalc --bool "PI == 3"
 false</code></pre>
   </p>
@@ -215,13 +215,13 @@ false</code></pre>
     input expression: <b>ccalc</b> will perform conversions where necessary.
   </p>
   <p>
-    Note that <b>ccalc</b> treats the <tt>^</tt> operator as C does, as the 
-    bitwise XOR operator and not as exponentiation. This behavior can be 
+    Note that <b>ccalc</b> treats the <tt>^</tt> operator as C does, as the
+    bitwise XOR operator and not as exponentiation. This behavior can be
     changed with the --caret-exp option. Otherwise you may use the
     <tt>pow</tt> function or the <tt>**</tt> operator.
   </p>
   <p>
-    Note also that, unlike in C, the division operator <tt>/</tt> may produce 
+    Note also that, unlike in C, the division operator <tt>/</tt> may produce
     a floating-point result even when both operands are integers. To force
     integer division, the <tt>//</tt> operator may be used.
   </p>
