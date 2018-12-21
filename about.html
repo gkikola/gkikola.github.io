@@ -1,34 +1,91 @@
----
-layout: default
-title: About
-description: About Greg Kikola
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description"
+          content="Greg Kikola's website" />
+    <meta name="keywords"
+          content="kikola, software, developer, portfolio" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/img/favicon.png" type="image/png" rel="icon" />
+    <title>Greg Kikola - About</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div id="menu">
+      <div class="container">
+        <span id="title">
+          <a href="/">Greg Kikola</a>
+        </span>
+        <span id="nav">
+          <a href="/">Home</a> &bull;
+          <a href="/projects/">Projects</a> &bull;
+          <a href="/about.html">About</a>
+        </span>
+      </div>
+    </div>
+    <!-- End Navigation -->
 
-<div class="about">
-  <img align=left alt="Gregory Kikola" src="images/gkikola.jpg">
-  <div class="about-text" style="padding-left:250px;">
-    <h1>About Me</h1>
-    <p>
-      I'm a hobbyist programmer with an interest in game
-      development. While I mostly work with C++, I also have some
-      experience with Java, Python, and Ruby.
-    </p>
-    <p>
-      I am currently an undergraduate student at
-      the <a href="http://www.umd.edu/">University of Maryland</a>,
-      majoring in mathematics. I expect to graduate in Spring 2019.
-    </p>
-    <p>
-      I develop free software. All of my software is free as in
-      freedom. This means that you have the freedom to run, copy,
-      study, change, and redistribute my programs for any purpose
-      provided that you extend those same freedoms to others. See the
-      terms of the <a href="https://www.gnu.org/licenses/gpl.html">GNU
-      General Public License</a> for the exact legal details.
-    </p>
-    <p>
-      You can contact me at <a href="mailto:{{ site.email }}">{{
-      site.email }}</a>.
-    </p>
-  </div>
-</div>
+    <div id="content-wrapper">
+
+      <!-- Content -->
+      <div class="container content">
+        <h2>About Me</h2>
+        <img src="/img/greg.jpg" alt="Greg Kikola" id="greg" />
+        <p>
+          I am a hobbyist programmer with an interest in game
+          development.  While I mostly work with C++, I also have
+          experience with Java, Python, and Ruby. Regarding web
+          development, I am comfortable with
+          <abbr title="Hypertext Markup Language">HTML</abbr>,
+          <abbr title="Cascading Style Sheets">CSS</abbr>, JavaScript,
+          and PHP.
+        </p>
+        <p>
+          I am currently an undergraduate student at the
+          <a href="http://www.umd.edu/">University of Maryland</a>,
+          majoring in mathematics. I expect to graduate in Fall
+          2019. Prior to my time at
+          <abbr title="University of Maryland">UMD</abbr>, I graduated
+          from the <a href="http://www.ccbcmd.edu/">Community College
+          of Baltimore County</a> with a 4.0
+          <abbr title="Grade Point Average">GPA</abbr> and various
+          other distinctions.
+        </p>
+        <p>
+          Aside from coding, I enjoy games: I play a good variety of
+          board games and video games. With board games I tend to
+          prefer light- to medium-weight eurogames and I am
+          particularly fond of the work of
+          <a href="http://www.spiele-feld.de/">Stefan Feld</a>. For
+          video games I enjoy a wide variety of genres, but I
+          especially like puzzle games,
+          <abbr title="Role-Playing Games">RPGs</abbr>, and
+          platformers.
+        </p>
+        <p>
+          You may contact me at
+          <a href="mailto:gkikola@gmail.com">gkikola@gmail.com</a>. Feel
+          free to ask questions or send bug reports. I also like
+          hearing feedback, positive or negative, about my software
+          projects, so please send your comments if you feel so
+          inclined.
+        </p>
+      </div>
+      <!-- End Content -->
+
+      <!-- Footer -->
+      <div class="container">
+        <hr />
+        <p class="legal">
+          Copyright &copy; 2017-2018 Greg Kikola. License:
+          <a href="https://creativecommons.org/licenses/by/4.0/"
+             title="Creative Commons Attribution 4.0 International">
+            CC BY 4.0</a>.
+        </p>
+      </div>
+      <!-- End Footer -->
+
+    </div> <!-- End content-wrapper -->
+  </body>
+</html>

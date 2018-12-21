@@ -1,43 +1,151 @@
----
-layout: default
-title: Projects
-description: List of Greg Kikola's software projects.
----
-<div class="projects">
-  <h1>My Projects</h1>
-  <p style="clear: left;"><h2><a href="/projects/nonny/" title="Nonny">
-      <img src="/images/nonny.png" alt="Nonny" class="padded-img">
-      Nonny
-  </a></h2></p>
-  <p>
-    Play and create nonogram puzzles!  Nonograms are logic puzzles in
-    which numeric clues are used to fill in squares within a grid in
-    order to reveal a picture.<br><br>
-    <i>Latest version:</i> &nbsp;
-    <a href="/projects/nonny/#download">Nonny 0.1</a>, released
-    2017-06-14.
-  </p><br><br>
-  <h2><a href="/projects/ccalc/" title="ccalc">
-      ccalc
-  </a></h2>
-  <p>Evaluate mathematical expressions from the command line.
-    Accepts and evaluates expressions using C syntax.<br><br>
-    <i>Latest
-      version:</i> &nbsp;
-    <a href="/projects/ccalc/#downloading">ccalc 1.02</a>, released
-    2017-05-25.
-  </p><br>
-  <h2><a href="/optionpp/" title="Option++">Option++</a></h2>
-  <p>C++ facility for reading command-line program options. Provides
-    an easy way to read, validate, and process command-line options.<br><br>
-    <i>Latest version:</i> &nbsp;
-    <a href="https://github.com/gkikola/optionpp/releases/tag/v1.01">Option++ 1.01</a>, released 2017-05-26.
-  </p><br>
-  <!--<p style="clear: left;"><h2><a href="https://github.com/gkikola/luatank" title="LuaTank">
-      <img src="/images/luatank.png" alt="LuaTank" class="padded-img">
-      LuaTank
-  </a></h2></p>
-  <p><i>(In development)</i> Programmable tank combat game: use the Lua
-    programming language to write the artificial intelligence for an
-    automated tank, then battle your tank against others.</p><br>-->
-</div>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description"
+          content="Greg Kikola's website" />
+    <meta name="keywords"
+          content="kikola, software, developer, portfolio" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/img/favicon.png" type="image/png" rel="icon" />
+    <title>Greg Kikola - Projects</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div id="menu">
+      <div class="container">
+        <span id="title">
+          <a href="/">Greg Kikola</a>
+        </span>
+        <span id="nav">
+          <a href="/">Home</a> &bull;
+          <a href="/projects/">Projects</a> &bull;
+          <a href="/about.html">About</a>
+        </span>
+      </div>
+    </div>
+    <!-- End Navigation -->
+
+    <div id="content-wrapper">
+
+      <!-- Content -->
+      <div class="container content">
+        <h2>Projects</h2>
+        <p>
+          These are my personal projects, with links to their latest
+          releases. Each of these programs is
+          <a href="https://www.gnu.org/philosophy/free-sw.en.html">free
+          software</a>.
+        </p>
+        <p>
+          The word "free" in "free software" refers to freedom: my
+          programs respect your freedom to run, copy, study, change,
+          and redistribute them for any purpose provided that you
+          extend those same freedoms to others. For the exact legal
+          terms and conditions, refer to the appropriate license
+          information that is distributed with the respective program.
+        </p>
+
+        <!-- Nonny -->
+        <div id="nonny" class="proj">
+          <p class="proj-title">
+            <h3>
+              <a href="/projects/nonny/">
+                Nonny
+                <img src="/img/nonny.png" alt="Nonny" class="proj-img" />
+              </a>
+            </h3>
+          </p>
+          <p class="proj-desc">
+            Play and create nonogram puzzles! Nonograms are logic
+            puzzles in which numeric clues are used to fill in squares
+            within a grid in order to reveal a picture.
+          </p>
+          <p class="proj-ver">
+            <em>Latest version:</em> &nbsp;
+            <a href="/projects/nonny/#download">Nonny 0.1</a>,
+            released 2017-06-14.
+          </p>
+        </div>
+
+        <!-- ccalc -->
+        <div id="ccalc" class="proj">
+          <p class="proj-title">
+            <h3>
+              <a href="/projects/ccalc/">
+                ccalc
+                <img src="/img/ccalc.png" alt="ccalc" class="proj-img" />
+              </a>
+            </h3>
+          </p>
+          <p class="proj-desc">
+            Evaluate mathematical expressions from the command
+            line. Accepts and evaluates expressions using C syntax.
+          </p>
+          <p class="proj-ver">
+            <em>Latest version:</em> &nbsp;
+            <a href="/projects/ccalc/#download">ccalc 1.02</a>,
+            released 2017-05-25.
+          </p>
+        </div>
+
+        <!-- Option++ -->
+        <div id="optionpp" class="proj">
+          <p class="proj-title">
+            <h3>
+              <a href="/projects/optionpp/">
+                Option++
+              </a>
+            </h3>
+          </p>
+          <p class="proj-desc">
+            C++ facility for reading command-line program
+            options. Provides an easy way to read, validate, and
+            process command-line options.
+          </p>
+          <p class="proj-ver">
+            <em>Latest version:</em> &nbsp;
+            <a href="https://github.com/gkikola/optionpp/releases/tag/v1.01">Option++
+            1.01</a>, released 2017-05-26.
+          </p>
+        </div>
+
+        <!-- Nonogram Studio -->
+        <div id="nstudio" class="proj">
+          <p class="proj-title">
+            <h3>
+              <a href="https://github.com/gkikola/nstudio/">
+                Nonogram Studio
+              </a>
+            </h3>
+          </p>
+          <p class="proj-desc">
+            <strong>Coming soon:</strong> Play and create nonogram
+            puzzles! Nonogram Studio will retain all of the major
+            features of Nonny while offering a completely redesigned
+            user interface and many other improvements.
+          </p>
+          <p class="proj-ver">
+            <em>Latest version:</em> &nbsp;
+            <a href="https://github.com/gkikola/nstudio/">Unreleased</a>.
+          </p>
+        </div>
+
+      </div>
+      <!-- End Content -->
+
+      <!-- Footer -->
+      <div class="container">
+        <hr />
+        <p class="legal">
+          Copyright &copy; 2017-2018 Greg Kikola. License:
+          <a href="https://creativecommons.org/licenses/by/4.0/"
+             title="Creative Commons Attribution 4.0 International">
+            CC BY 4.0</a>.
+        </p>
+      </div>
+      <!-- End Footer -->
+
+    </div> <!-- End content-wrapper -->
+  </body>
+</html>

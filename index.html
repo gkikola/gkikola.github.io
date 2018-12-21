@@ -1,30 +1,57 @@
----
-layout: default
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description"
+          content="Greg Kikola's website" />
+    <meta name="keywords"
+          content="kikola, software, developer, portfolio" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/img/favicon.png" type="image/png" rel="icon" />
+    <title>Greg Kikola</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div id="menu">
+      <div class="container">
+        <span id="title">
+          <a href="/">Greg Kikola</a>
+        </span>
+        <span id="nav">
+          <a href="/">Home</a> &bull;
+          <a href="/projects/">Projects</a> &bull;
+          <a href="/about.html">About</a>
+        </span>
+      </div>
+    </div>
+    <!-- End Navigation -->
 
-<div class="home">
+    <div id="content-wrapper">
 
-  <p>
-    Welcome to my home page. I write free software. Take a look at
-    my <a href="/projects/">projects</a> or read
-    more <a href="/about.html">about me</a>.
-  </p>
+      <!-- Content -->
+      <div class="container content">
+        <h2>Home</h2>
+        <p>
+          Welcome to my website! I write free software. You can take a
+          look at my <a href="/projects/">projects</a>, read more
+          <a href="/about.html">about me</a>, or
+          <a href="mailto:gkikola@gmail.com">contact me</a>.
+        </p>
+      </div>
+      <!-- End Content -->
 
-  <h1 class="page-heading">News</h1>
+      <!-- Footer -->
+      <div class="container">
+        <hr />
+        <p class="legal">
+          Copyright &copy; 2017-2018 Greg Kikola. License:
+          <a href="https://creativecommons.org/licenses/by/4.0/"
+             title="Creative Commons Attribution 4.0 International">
+            CC BY 4.0</a>.
+        </p>
+      </div>
+      <!-- End Footer -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <div class="post-content">{{ post.content }}</div>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    </div> <!-- End content-wrapper -->
+  </body>
+</html>

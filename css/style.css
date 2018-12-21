@@ -1,0 +1,124 @@
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#content-wrapper {
+  overflow: auto;
+  background-color: white;
+  padding: 8px;
+
+  /* (12px + 2px + 8px) padding on top and bottom plus 18px font-size equals
+     62px */
+  height: calc(100% - 62px);
+}
+
+/* When the screen is narrow, menu bar will be roughly twice as tall */
+@media only screen and (max-width: 400px) {
+  #content-wrapper {
+    height: calc(100% - 83px);
+  }
+}
+
+/* Style the menu bar at top of page */
+#menu {
+  color: white;
+  background-color: black;
+  padding: 12px;
+  overflow: auto;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  padding: 4px;
+}
+
+/* Site title */
+#title {
+  font-size: 20px;
+  line-height: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+/* Navigation links */
+#nav {
+  font-size: 18px;
+  line-height: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  float: right;
+}
+
+#nav a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  text-align: justify;
+}
+
+.legal {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.proj {
+  text-align: left;
+}
+
+.proj-title {
+  clear: left;
+}
+
+.proj-img {
+  float: left;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+img#greg {
+  border-radius: 25px;
+  float: right;
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Images should not be floated when screen is narrow */
+@media only screen and (max-width: 500px) {
+  .proj-img {
+    float: none;
+    display: block;
+    padding-bottom: 0.25em;
+  }
+
+  img#greg {
+    float: none;
+    margin-left: 4px;
+    margin-bottom: 4px;
+  }
+}
