@@ -118,7 +118,8 @@ img#greg {
 
   img#greg {
     float: none;
-    margin-left: 4px;
-    margin-bottom: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
