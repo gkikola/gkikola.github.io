@@ -113,6 +113,7 @@ img#greg {
   .proj-img {
     float: none;
     display: block;
+    padding-top: 0.25em;
     padding-bottom: 0.25em;
   }
 
