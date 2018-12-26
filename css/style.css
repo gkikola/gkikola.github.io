@@ -46,3 +46,14 @@ a:hover, a:focus {
 .legal {
   font-family: "Times New Roman", Times, serif;
 }
+
+.proj-img {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+img#greg {
+  border-radius: 25px;
+}
