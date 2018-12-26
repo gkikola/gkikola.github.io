@@ -4,6 +4,11 @@ html, body {
   width: 100%;
 }
 
+/* Make sure old browsers treat HTML5 tags correctly */
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+}
+
 hr {
   margin: 1.5em 0em;
 }
@@ -52,13 +57,13 @@ a.skip:focus, a.skip:active {
 }
 
 /* Navigation links */
-#nav {
+nav {
   font-size: 1.25em;
   padding: 0.75em 0.25em 0.25em 0.25em;
   float: right;
 }
 
-#nav a {
+nav a {
   padding: 0.25em;
 }
 
@@ -96,7 +101,7 @@ img#greg {
     font-size: 1.25em;
   }
 
-  #nav {
+  nav {
     font-size: 1.1em;
   }
 
@@ -123,7 +128,7 @@ img#greg {
     font-size: 1.1em;
   }
 
-  #nav {
+  nav {
     font-size: 1em;
     padding-top: 0.625em;
   }
@@ -135,7 +140,7 @@ img#greg {
     font-size: 1em;
   }
 
-  #nav {
+  nav {
     font-size: 1em;
   }
 }
@@ -147,8 +152,9 @@ img#greg {
     display: none;
   }
 
-  #nav {
+  nav {
     float: none;
     font-size: 1em;
+    padding-top: 0.1em;
   }
 }

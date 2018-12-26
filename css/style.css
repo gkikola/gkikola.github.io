@@ -7,19 +7,24 @@ body {
   background-color: black;
 }
 
-#menu a {
-  color: white;
-  text-decoration: none;
-}
-
 /* Site title */
 #title {
   font-variant: small-caps;
   font-weight: bold;
 }
 
+#title a {
+  color: white;
+  text-decoration: none;
+}
+
 /* Navigation links */
-#nav a:hover {
+nav a, nav a:link, nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
   color: black;
   background-color: white;
   text-decoration: none;
