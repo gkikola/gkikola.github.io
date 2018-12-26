@@ -73,10 +73,6 @@ img#greg {
     font-size: 1.1em;
   }
 
-  #content-wrapper {
-    padding-top: 4em;
-  }
-
   /* Don't float images */
   .proj-img {
     float: none;
@@ -104,10 +100,6 @@ img#greg {
     font-size: 1em;
     padding-top: 0.625em;
   }
-
-  #content-wrapper {
-    padding-top: 3em;
-  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -131,9 +123,5 @@ img#greg {
   #nav {
     float: none;
     font-size: 1em;
-  }
-
-  #content-wrapper {
-    padding-top: 2em;
   }
 }
