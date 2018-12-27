@@ -140,6 +140,10 @@ img#greg {
     font-size: 1em;
     padding-top: 0.625em;
   }
+
+  .intro-sentence {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 375px) {
