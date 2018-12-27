@@ -13,7 +13,7 @@ hr {
   margin: 1.5em 0em;
 }
 
-/* Skip to main content link */
+/* "Skip to main content" link */
 a.skip {
   left: -999px;
   position: absolute;
@@ -76,6 +76,14 @@ nav a {
   max-width: 732px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.hook {
+  margin-bottom: 0em;
 }
 
 .proj-title {
