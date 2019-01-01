@@ -5,6 +5,6 @@ My personal website, hosted on
 Copyright
 ---------
 
-Copyright &copy; 2017-2018 Greg Kikola. License CC BY 4.0:
+Copyright &copy; 2017-2019 Greg Kikola. License CC BY 4.0:
 [Creative Commons Attribution 4.0
 International](https://creativecommons.org/licenses/by/4.0/).
