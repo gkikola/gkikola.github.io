@@ -53,8 +53,9 @@ a:hover, a:focus {
   text-align: center;
 }
 
-.hook {
-  font-style: italic;
+#social-links {
+  font-size: 1.10em;
+  text-align: center;
 }
 
 .legal {
