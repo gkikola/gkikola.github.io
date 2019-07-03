@@ -100,7 +100,18 @@ img#greg {
 }
 
 /* Narrow screens */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 575px) {
+  /* Reduce menu size */
+  #title {
+    font-size: 1.25em;
+  }
+
+  nav {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 550px) {
   /* Reduce menu size */
   #title {
     font-size: 1.25em;
@@ -127,7 +138,7 @@ img#greg {
 }
 
 /* Really narrow screens */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 500px) {
   /* Reduce menu size */
   #title {
     font-size: 1.1em;
@@ -137,24 +148,9 @@ img#greg {
     font-size: 1em;
     padding-top: 0.625em;
   }
-
-  .intro-sentence {
-    display: block;
-  }
 }
 
-@media only screen and (max-width: 375px) {
-  /* Reduce menu size */
-  #title {
-    font-size: 1em;
-  }
-
-  nav {
-    font-size: 1em;
-  }
-}
-
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
   /* Hide site title */
   #title {
     float: none;

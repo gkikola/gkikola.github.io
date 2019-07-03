@@ -48,8 +48,23 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center;
+}
+
+td.left {
+  text-align: left;
+}
+
 #intro {
-  font-size: 1.25em;
+  font-size: 1.10em;
   text-align: center;
 }
 
