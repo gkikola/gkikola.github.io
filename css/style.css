@@ -19,7 +19,9 @@ body {
 }
 
 /* Navigation links */
-nav a, nav a:link, nav a:visited {
+nav a,
+nav a:link,
+nav a:visited {
   color: white;
   text-decoration: none;
 }
@@ -44,7 +46,8 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
@@ -53,7 +56,8 @@ table {
   border-style: hidden;
 }
 
-th, td {
+th,
+td {
   border: 1px solid black;
   padding: 3px;
   text-align: center;
@@ -64,12 +68,12 @@ td.left {
 }
 
 #intro {
-  font-size: 1.10em;
+  font-size: 1.1em;
   text-align: center;
 }
 
 #social-links {
-  font-size: 1.10em;
+  font-size: 1.1em;
   text-align: center;
 }
 

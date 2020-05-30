@@ -1,16 +1,15 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description"
-          content="Greg Kikola's Website" />
-    <meta name="keywords"
-          content="kikola, software, developer, portfolio" />
+    <meta name="description" content="Personal website of Greg Kikola" />
+    <meta name="keywords" content="kikola, software, developer, portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="/css/layout.css" type="text/css" rel="stylesheet" />
     <link href="/css/style.css" type="text/css" rel="stylesheet" />
+
     <link href="/img/favicon.png" type="image/png" rel="icon" />
-    <title>Greg Kikola - Software Projects</title>
+    <title>Greg Kikola - Projects</title>
   </head>
   <body>
     <!-- Skip to main content -->
@@ -23,107 +22,115 @@
           <a href="/">Greg Kikola</a>
         </span>
         <nav>
-          <a href="/">Home</a> &bull;
-          <a href="/guides/">Guides</a> &bull;
-          <a href="/projects/">Software</a> &bull;
-          <a href="/about.html">About</a>
+          <a href="/">Home</a>
+          &bull;
+
+          <a href="/projects/">Projects</a>
+          &bull;
+
+          <a href="/contact/">Contact</a>
+          &bull;
+
+          <a href="/about/">About</a>
         </nav>
       </header>
     </div>
     <!-- End Navigation -->
 
     <div id="content-wrapper">
-
       <!-- Content -->
-      <main id="main" class="container content">
-        <h1>Software Projects</h1>
-        <p>
-          These are my personal software projects, with links to their
-          latest releases. Each of these programs is
-          <a href="https://www.gnu.org/philosophy/free-sw.en.html">free
-          software</a>.
-        </p>
+      <div class="container content">
+        <main id="main">
+          <h1>Projects</h1>
 
-        <!-- Nonny -->
-        <div id="nonny" class="proj">
-          <h2 class="proj-title">
-            <a href="/projects/nonny/">
-              Nonny
-              <img src="/img/nonny.png" alt="Nonny" class="proj-img" />
-            </a>
-          </h2>
-          <p class="proj-desc">
-            Play and create nonogram puzzles! Nonograms are logic
-            puzzles in which numeric clues are used to fill in squares
-            within a grid in order to reveal a picture.
+          <p>
+            These are my personal projects, with links to their latest releases.
+            Each of the programs that you see here is
+            <a href="https://www.gnu.org/philosophy/free-sw.en.html"
+              >free software</a
+            >.
           </p>
-          <p class="proj-ver">
-            <em>Latest version:</em> &nbsp;
-            <a href="/projects/nonny/#download">Nonny 0.1</a>,
-            released 2017-06-14.
-          </p>
-        </div>
 
-        <!-- ccalc -->
-        <div id="ccalc" class="proj">
-          <h2 class="proj-title">
-            <a href="/projects/ccalc/">
-              ccalc
-              <img src="/img/ccalc.png" alt="ccalc" class="proj-img" />
-            </a>
-          </h2>
-          <p class="proj-desc">
-            Evaluate mathematical expressions from the command
-            line. Accepts and evaluates expressions using C syntax.
-          </p>
-          <p class="proj-ver">
-            <em>Latest version:</em> &nbsp;
-            <a href="/projects/ccalc/#download">ccalc 1.02</a>,
-            released 2017-05-25.
-          </p>
-        </div>
+          <!-- Textbook Solution Guides -->
+          <div id="guides" class="proj">
+            <h2 class="proj-title">
+              <a href="/projects/guides/">
+                Textbook Solution Guides
+                <img
+                  src="/img/guides.png"
+                  alt="Textbook Solution Guides"
+                  class="proj-img"
+                />
+              </a>
+            </h2>
+            <p class="proj-desc">
+              Solutions to exercises from various mathematics textbooks.
+            </p>
+          </div>
 
-        <!-- Option++ -->
-        <div id="optionpp" class="proj">
-          <h2 class="proj-title">
-            <a href="/optionpp/">
-              Option++
-              <img src="/img/optionpp.png" alt="Option++"
-                   class="proj-img" />
-            </a>
-          </h2>
-          <p class="proj-desc">
-            C++ library for reading command-line program
-            options. Provides an easy way to read, validate, and
-            process command-line options.
-          </p>
-          <p class="proj-ver">
-            <em>Latest version:</em> &nbsp;
-            <a href="https://github.com/gkikola/optionpp/releases/tag/v1.02">Option++
-            1.02</a>, released 2018-12-25.
-          </p>
-        </div>
+          <!-- Nonny -->
+          <div id="nonny" class="proj">
+            <h2 class="proj-title">
+              <a href="/projects/nonny/">
+                Nonny
+                <img src="/img/nonny.png" alt="Nonny" class="proj-img" />
+              </a>
+            </h2>
+            <p class="proj-desc">
+              Play and create nonogram puzzles! Nonograms are logic puzzles in
+              which numeric clues are used to fill in squares within a grid in
+              order to reveal a picture.
+            </p>
 
-        <!-- Nonogram Studio
-        <div id="nstudio" class="proj">
-          <h2 class="proj-title">
-            <a href="https://github.com/gkikola/nstudio/">
-              Nonogram Studio
-            </a>
-          </h2>
-          <p class="proj-desc">
-            <strong>Coming soon:</strong> Play and create nonogram
-            puzzles! Nonogram Studio will retain all of the major
-            features of Nonny while offering a completely redesigned
-            user interface and many other improvements.
-          </p>
-          <p class="proj-ver">
-            <em>Latest version:</em> &nbsp;
-            <a href="https://github.com/gkikola/nstudio/">Unreleased</a>.
-          </p>
-        </div>-->
+            <p class="proj-ver">
+              <em>Latest version:</em> &nbsp;
+              <a href="/projects/nonny/#download">Nonny 0.1</a>, released
+              2017-06-14.
+            </p>
+          </div>
 
-      </main>
+          <!-- ccalc -->
+          <div id="ccalc" class="proj">
+            <h2 class="proj-title">
+              <a href="/projects/ccalc/">
+                ccalc
+                <img src="/img/ccalc.png" alt="ccalc" class="proj-img" />
+              </a>
+            </h2>
+            <p class="proj-desc">
+              Evaluate mathematical expressions from the command line. Accepts
+              and evaluates expressions using C syntax.
+            </p>
+
+            <p class="proj-ver">
+              <em>Latest version:</em> &nbsp;
+              <a href="/projects/ccalc/#download">ccalc 1.02</a>, released
+              2017-05-25.
+            </p>
+          </div>
+
+          <!-- Option++ -->
+          <div id="optionpp" class="proj">
+            <h2 class="proj-title">
+              <a href="https://github.com/gkikola/optionpp">
+                Option++
+                <img src="/img/optionpp.png" alt="Option++" class="proj-img" />
+              </a>
+            </h2>
+            <p class="proj-desc">
+              C++ library for reading command-line program options. Provides an
+              easy way to read, validate, and process command-line options.
+            </p>
+
+            <p class="proj-ver">
+              <em>Latest version:</em> &nbsp;
+              <a href="https://github.com/gkikola/optionpp/releases/tag/v1.02"
+                >Option++ 1.02</a
+              >, released 2018-12-25.
+            </p>
+          </div>
+        </main>
+      </div>
       <!-- End Content -->
 
       <!-- Footer -->
@@ -131,13 +138,15 @@
         <hr />
         <p class="legal">
           Copyright &copy; 2017-2020 Greg Kikola. License:
-          <a href="https://creativecommons.org/licenses/by/4.0/"
-             title="Creative Commons Attribution 4.0 International">
-            CC BY 4.0</a>.
+          <a
+            href="https://creativecommons.org/licenses/by/4.0/"
+            title="Creative Commons Attribution 4.0 International"
+            >CC-BY-4.0</a
+          >.
         </p>
       </footer>
       <!-- End Footer -->
-
-    </div> <!-- End content-wrapper -->
+    </div>
+    <!-- End content-wrapper -->
   </body>
 </html>

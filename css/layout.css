@@ -1,11 +1,19 @@
-html, body {
+html,
+body {
   margin: 0em;
   padding: 0em;
   width: 100%;
 }
 
 /* Make sure old browsers treat HTML5 tags correctly */
-header, section, footer, aside, nav, main, article, figure {
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
   display: block;
 }
 
@@ -24,7 +32,8 @@ a.skip {
   z-index: -999;
 }
 
-a.skip:focus, a.skip:active {
+a.skip:focus,
+a.skip:active {
   color: black;
   background-color: white;
   left: 0.5em;
@@ -33,7 +42,7 @@ a.skip:focus, a.skip:active {
   height: auto;
   overflow: auto;
   margin: 10px 10px;
-  padding: 10px; 5px;
+  padding: 10px 5px;
   border: 1px solid black;
   text-align: center;
   font-size: 1.2em;
