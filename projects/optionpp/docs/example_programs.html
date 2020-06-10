@@ -154,7 +154,7 @@ Introductory Example</h1>
 <div class="line">  }</div>
 <div class="line"> </div>
 <div class="line">  <span class="comment">// Iterate over non-option arguments</span></div>
-<div class="line">  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; entry : <a class="code" href="classoptionpp_1_1result__iterator.html">optionpp::non_option_const_iterator</a>(result)) {</div>
+<div class="line">  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; entry : <a class="code" href="namespaceoptionpp.html#a3d6a15f82589ed4fec9fcdd82eab59d0">non_option_const_iterator</a>(result)) {</div>
 <div class="line">    <span class="keywordflow">if</span> (!entry.is_option)</div>
 <div class="line">      std::cout &lt;&lt; <span class="stringliteral">&quot;Received argument &#39;&quot;</span></div>
 <div class="line">                &lt;&lt; entry.original_text</div>
@@ -600,7 +600,6 @@ Parsing Arguments in Strings</h1>
 <div class="line">Enter some words, or leave blank to exit:</div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
-<div class="ttc" id="aclassoptionpp_1_1result__iterator_html"><div class="ttname"><a href="classoptionpp_1_1result__iterator.html">optionpp::result_iterator</a></div><div class="ttdoc">Iterator over parser_result arguments.</div><div class="ttdef"><b>Definition:</b> result_iterator.hpp:36</div></div>
 <div class="ttc" id="aoptionpp_8hpp_html"><div class="ttname"><a href="optionpp_8hpp.html">optionpp.hpp</a></div><div class="ttdoc">Main include file for library users.</div></div>
 <div class="ttc" id="aclassoptionpp_1_1parser_html_ae811f10836a7306db94b7a9f95f0a692"><div class="ttname"><a href="classoptionpp_1_1parser.html#ae811f10836a7306db94b7a9f95f0a692">optionpp::parser::parse</a></div><div class="ttdeci">parser_result parse(InputIt first, InputIt last, bool ignore_first=true) const</div><div class="ttdoc">Parse command-line arguments from a sequence of strings.</div></div>
 <div class="ttc" id="aclassoptionpp_1_1error_html"><div class="ttname"><a href="classoptionpp_1_1error.html">optionpp::error</a></div><div class="ttdoc">Base class for library exceptions.</div><div class="ttdef"><b>Definition:</b> error.hpp:36</div></div>
