@@ -559,7 +559,7 @@ function updateWagerBoard() {
     output +=
       '<span class="guess-payout">Pays ' + guessList[i].payout + " to 1</span>";
     output += '<span class="guess-value">';
-    if (guessList[i].value === null) output += "-&infin;";
+    if (guessList[i].value === null) output += "&minus;&infin;";
     else output += guessList[i].value;
     output += "</span>";
     for (let playerName of guessList[i].players) {
@@ -637,9 +637,9 @@ function confirmBets() {
   output += "<th>Second Bet</th></tr>";
   for (let player of players) {
     let value1 = guessList[player.bet1Guess].value;
-    if (value1 === null) value1 = "-&infin;";
+    if (value1 === null) value1 = "&minus;&infin;";
     let value2 = guessList[player.bet2Guess].value;
-    if (value2 === null) value2 = "-&infin;";
+    if (value2 === null) value2 = "&minus;&infin;";
 
     output += "<tr><td>" + player.name + "</td><td>";
     output += value1;
