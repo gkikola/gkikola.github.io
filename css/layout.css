@@ -1,19 +1,11 @@
-html,
-body {
+html, body {
   margin: 0em;
   padding: 0em;
   width: 100%;
 }
 
 /* Make sure old browsers treat HTML5 tags correctly */
-header,
-section,
-footer,
-aside,
-nav,
-main,
-article,
-figure {
+header, section, footer, aside, nav, main, article, figure {
   display: block;
 }
 
@@ -32,8 +24,7 @@ a.skip {
   z-index: -999;
 }
 
-a.skip:focus,
-a.skip:active {
+a.skip:focus, a.skip:active {
   color: black;
   background-color: white;
   left: 0.5em;
@@ -95,8 +86,7 @@ nav a {
   clear: both;
 }
 
-:target::before {
-  /* Fix for section links not being offset by nav bar */
+:target::before { /* Fix for section links not being offset by nav bar */
   content: "";
   display: block;
   height: 3.5em;
@@ -183,10 +173,12 @@ img#greg {
 }
 
 @media only screen and (max-width: 450px) {
-  /* Hide site title */
+  /* Put site title on separate line */
   #title {
+    display: block;
     float: none;
-    display: none;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
   }
 
   nav {
@@ -196,6 +188,6 @@ img#greg {
   }
 
   #content-wrapper {
-    margin-top: 2.5em;
+    margin-top: 4.5em;
   }
 }
